@@ -1,0 +1,12 @@
+$populasi = $arr[0];
+
+echo 'Target : ' . $target;
+echo "\n";
+echo "generasi Ke: " . $arr[2];
+echo "\n";
+echo "Index Ke: " . $arr[3];
+echo "\n";
+echo "Hasil: " . $populasi->kromosom[$arr[3]];
+echo "\n";
+echo "Fitnes: " . $populasi->fitness[$arr[3]];
+echo "\n";
